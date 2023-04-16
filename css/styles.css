@@ -80,7 +80,7 @@ button {
   overflow: hidden;
 }
 .box {
-  transition-property: transition-duration, transition-timing-function;
+  /* transition-property: transition-duration, transition-timing-function; */
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -619,6 +619,7 @@ button {
   transform: translate(-50%, -50%) scale(1) rotate(0);
   transition: transform 600ms linear;
   background-color: #fff;
+  border-radius: 4px;
 }
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(120deg);
