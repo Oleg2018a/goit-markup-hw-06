@@ -735,7 +735,6 @@ button {
   color: var(--focus-text-color);
 } */
 .label-choice {
-  /* width: 360px; */
   display: flex;
   justify-content: center;
   align-items: center;
